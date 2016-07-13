@@ -9,18 +9,32 @@ div {
 
 .navbar {
 	background-color:white;
+	background-size:cover;
 	max-height:5em;
 
 }
 
-.navbar > img {
-	max-width: 2.5em;
-	max-height: 2.5em;
-	padding:1em;
+.content {
+	margin-left:6em;
+	margin-right:6em;
+	padding-left:1.25em;
+	padding-right:1.25em;
 
+}
+
+.logo {
+	width:1.75em;
+	height:5em;
+
+}
+
+.nav_links {
+	margin top: 2.5em
 }
 
 .nav_links > li {
 	display: inline-block;
+	float:right;
+	margin-left:1.5em;
 
 }

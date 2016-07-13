@@ -1,0 +1,26 @@
+/* DEV PROCESS STYLES */
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+/* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
+
+.navbar {
+	background-color:white;
+	max-height:5em;
+
+}
+
+.navbar > img {
+	max-width: 2.5em;
+	max-height: 2.5em;
+	padding:1em;
+
+}
+
+.nav_links > li {
+	display: inline-block;
+
+}

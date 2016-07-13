@@ -1,40 +1,58 @@
-/* DEV PROCESS STYLES */
+/* DEV PROCESS STYLES  */
+
 body {
     background-color: LightGray;
 }
 div {
     border: 1px solid Chocolate;
 }
-/* ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ ^ */
 
-.navbar {
-	background-color:white;
-	background-size:cover;
-	max-height:5em;
+/* NAVIGATION SECTION */
+
+.top-navigation {
+	background-color: #fff;
+	height: 4.375rem;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid #ddd;
 
 }
 
-.content {
-	margin-left:6em;
-	margin-right:6em;
-	padding-left:1.25em;
-	padding-right:1.25em;
-
+.top-navigation > .content {
+	height:4.375rem;
+	width:60rem;
+	margin:0 auto;
+	padding: 0px 15px
 }
 
 .logo {
-	width:1.75em;
-	height:5em;
+	width:1.75rem;
+	height:4.375rem;
 
 }
 
-.nav_links {
-	margin top: 2.5em
-}
-
-.nav_links > li {
+.links > li {
 	display: inline-block;
 	float:right;
-	margin-left:1.5em;
-
+	margin-left:1.5rem;
+	list-style-type:none;
 }
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+

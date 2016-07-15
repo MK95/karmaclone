@@ -1,4 +1,4 @@
-/* DEV PROCESS STYLES  */
+/* DURING DEVELOPMENT  */
 
 body {
     background-color: LightGray;
@@ -20,9 +20,10 @@ div {
 
 .top-navigation > .content {
 	height:4.375rem;
-	width:60rem;
+	width:60%;
+	height:70px;
 	margin:0 auto;
-	padding: 0px 15px
+	padding: 0px 15px;
 }
 
 .logo {
@@ -31,19 +32,17 @@ div {
 
 }
 
-.links > li {
+.top-navigation .links li {
 	display: inline-block;
-	float:right;
-	margin-left:1.5rem;
-	list-style-type:none;
+	margin-left:1.563rem;
 }
 
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
     color: #838994;
-    font-size: 16px;
-    margin-top: 25px;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
     -webkit-font-smoothing: antialiased;
 }
 

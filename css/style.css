@@ -8,17 +8,17 @@ html {
 }
 
 body {
-    background-color: LightGray;
     font-family:'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
 }
+/*
 div {
     border: 1px solid Chocolate;
 }
-
+*/
 .content {
 	width:60%;
 	height:70px;
@@ -34,7 +34,7 @@ div {
 	width: 100%;
 	position: fixed;
 	border-bottom: 1px solid #ddd;
-
+	z-index:9999;
 }
 
 .logo {
@@ -128,42 +128,37 @@ button {
 
 /* ICONS SECTION */
 
-.icons {
+.cases {
 	background-color:white;
-	height:45rem;
+	height:40rem;
 }
 
-.icons .content {
+.cases .content {
 	color:#333333;
 	margin:0 auto;
 	text-align:center;
+	padding-top:8rem;
 
 }
 
-.icons h2 {
+.cases h2 {
 	font-size: 2.75rem;
     margin: 1.625rem 0 3.125rem;
     font-weight: 300;
 }
 
-.icons h3 {
+.cases h3 {
 	font-weight: 400;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
 
 }
 
-.icons .content li {
-	display:inline-block;
-}
-
 .cases .devices {
     width: 33.3333333%;
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px solid black;
-    box-sizing: border-box;
-    height: 4em;
+	float:left;
+	padding:0 2rem 0 2rem;
 }
 
 /* FOOTER */
@@ -177,6 +172,11 @@ button {
 	margin:0 auto;
 	text-align:center;
 	border-top: 1px solid #dfdfdf;
+	font-family: 'Roboto', sans-serif;
+}
+
+.social h5{
+	font-weight:300;
 }
 
 .social ul{
@@ -185,6 +185,8 @@ button {
 
 .social ul li {
 	display: inline-block;
+	border-radius:50%;
+	border: .5px solid #dfdfdf;
 }
 
 .social .copy {
@@ -192,5 +194,4 @@ button {
     font-weight: 300;
     color: #838994;
 }
-
 

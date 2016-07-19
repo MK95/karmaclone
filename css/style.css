@@ -24,7 +24,6 @@ div {
 	height:70px;
 	margin:0 auto;
 	padding: 0px 15px;
-	box-sizing 
 }
 
 /* NAVIGATION SECTION */
@@ -43,11 +42,6 @@ div {
 
 }
 
-.top-navigation .links li {
-	display: inline-block;
-	margin-left:1.563rem;
-}
-
 .top-navigation .links {
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -60,6 +54,12 @@ div {
     color: #4c5058;
     font-weight: 500;
 }
+
+.top-navigation .links li {
+	display: inline-block;
+	margin-left:1.563rem;
+}
+
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
@@ -73,6 +73,7 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
+    overflow: auto;
 
 }
 
@@ -95,6 +96,14 @@ div {
 	margin-bottom:0;
 }
 
+button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+
+}
+
 .introduction button {
 	margin-top:1.25rem;
 	width: 9.688rem;
@@ -106,7 +115,6 @@ div {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    border-radius: 4px;
 
 
 }
@@ -116,6 +124,73 @@ div {
     border-color: #cf3d0e;
     cursor: pointer;
 
+}
+
+/* ICONS SECTION */
+
+.icons {
+	background-color:white;
+	height:45rem;
+}
+
+.icons .content {
+	color:#333333;
+	margin:0 auto;
+	text-align:center;
+
+}
+
+.icons h2 {
+	font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.icons h3 {
+	font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+
+}
+
+.icons .content li {
+	display:inline-block;
+}
+
+.cases .devices {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+
+/* FOOTER */
+
+.social{
+	background-color: white;
+	height:15rem;
+}
+
+.social .content{
+	margin:0 auto;
+	text-align:center;
+	border-top: 1px solid #dfdfdf;
+}
+
+.social ul{
+	padding-left:0;
+}
+
+.social ul li {
+	display: inline-block;
+}
+
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
 
 
